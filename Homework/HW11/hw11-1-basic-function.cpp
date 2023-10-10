@@ -14,7 +14,7 @@
 
 #include <stdio.h>
 
-int Additional (int a , int b , int c ) {
+int AdditionalFunction (int a , int b , int c ) {
     int sum = a + b + c ;
     return sum ;
 } // end Additional Function
@@ -29,7 +29,7 @@ int main () {
     } // end for
      
     // ส่งค่าไปฟังก์ชั่น
-    int sum = Additional( num[ 0 ] , num[ 1 ] , num[ 2 ] ) ;
+    int sum = AdditionalFunction( num[ 0 ] , num[ 1 ] , num[ 2 ] ) ;
 
     printf ( "Summation = %d (Calculate by Additional Function)", sum ) ;
     return 0 ;
